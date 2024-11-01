@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex</title>
+    <title>Pokédex WebApi</title>
+  
+       <!-- Estilos CSS-->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/styles-loader.css">
+    <!-- Fin Estilos CSS-->
+
+    <!-- Inicio Scrips JS-->
+     <script type="text/javascript" src="./js/main.js"></script>
+     <!-- fin Scrips JS-->
 </head>
 <body>
-    
+   <!--INICIO PRELOADER-->
+    <div class="contenedor">
+        <div class="loader">
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+        </div>
+    </div>
+   <!-- FIN PRELOADER-->
+
+
+     <!-- Inicio Header-->
     <header>
+        <!-- inicio menu-->
         <nav class="nav">
             <img src="./img/logo.png" alt="Logo Pokédex">
             <ul class="nav-list">
@@ -34,7 +59,11 @@
                 <li class="nav-item"><button class="btn btn-header fairy" id="fairy">Fairy</button></li>
             </ul>
         </nav>
+        <!-- fin del menu-->
     </header>
+    <!-- Fin Header-->
+
+    <!-- inicio Main-->
     <main> 
         <div id="todos">
             <div class="pokemon-todos" id="listaPokemon">
@@ -62,7 +91,9 @@
             </div>
         </div>
     </main>
+     <!-- Fin Main-->
 
-    <script src="./js/main.js"></script>
 </body>
+<!-- Fin body-->
 </html>
+<!-- Fin htlm-->

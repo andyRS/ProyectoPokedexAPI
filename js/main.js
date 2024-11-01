@@ -1,3 +1,10 @@
+
+window.addEventListener('load', ()=>{
+    const contenedor_loader =document.querySelector('.contenedor')
+    contenedor_loader.style.opacity=0;
+    contenedor_loader.style.visibility = 'hidden';
+
+//INICIO JS APIPOKEDEX
 const listaPokeom = document.querySelector("#listaPokemon");
 const botonesHeader = document.querySelectorAll(".btn-header");
 let URL = "https://pokeapi.co/api/v2/pokemon/";
@@ -75,3 +82,6 @@ botonesHeader.forEach(boton => boton.addEventListener("click", (event) => {
     }
     
 }))
+//FIN JS APIPOKEDEX
+
+})
